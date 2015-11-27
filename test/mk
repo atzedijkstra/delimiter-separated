@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ghc -i../src --make test.hs -XRankNTypes -XFlexibleContexts -XTypeSynonymInstances -XFlexibleInstances
