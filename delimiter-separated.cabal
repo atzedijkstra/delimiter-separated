@@ -1,5 +1,5 @@
 Name:                delimiter-separated
-Version:             0.1.0.0
+Version:             0.1.0.1
 Copyright:           Atze Dijkstra
 Description:         Delimeter separated file handling
 Synopsis:            Library for dealing with tab and/or comma (or other) separated files
