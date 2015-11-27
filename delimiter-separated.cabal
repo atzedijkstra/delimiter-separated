@@ -1,14 +1,14 @@
 Name:                delimiter-separated
 Version:             0.1.0.0
-Copyright:           Utrecht University, Department of Information and Computing Sciences, Software Technology group
+Copyright:           Atze Dijkstra
 Description:         Delimeter separated file handling
 Synopsis:            Library for dealing with tab and/or comma (or other) separated files
 Homepage:            https://github.com/atzedijkstra/delimiter-separated
 Bug-Reports:         https://github.com/atzedijkstra/delimiter-separated/issues
 License:             BSD3
 License-file:        LICENSE
-Author:              atze@uu.nl
-Maintainer:          atze@uu.nl
+Author:              atzedijkstra@gmail.com
+Maintainer:          atzedijkstra@gmail.com
 Category:            Development
 Build-Type:          Simple
 Cabal-Version:       >= 1.8

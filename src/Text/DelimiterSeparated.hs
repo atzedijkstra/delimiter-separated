@@ -7,7 +7,7 @@ Module      : Text.DelimiterSeparated
 Description : Library for manipulating delimiter separated records.
 Copyright   : (c) Atze Dijkstra, 2015
 License     : BSD3
-Maintainer  : atze@uu.nl
+Maintainer  : atzedijkstra@gmail.com
 Stability   : experimental
 Portability : POSIX
 
@@ -122,10 +122,10 @@ showField :: DelimiterStyle -> Field -> String
 showField (CSV {}) (Field s) = "\"" ++ s ++ "\""
 showField (TSV {}) (Field s) =         s
 
--- | Record is sequence of fields (representation may change in future)
+-- | Record is sequence of 'Field's (representation may change in future)
 type Record = [Field]
 
--- | Records is sequence of records (representation may change in future)
+-- | Records is sequence of 'Record's (representation may change in future)
 type Records = [Record]
 
 -- | Style of delimitation
